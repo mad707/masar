@@ -57,12 +57,14 @@ Place it at `data/skill_builder_data.csv`. Notes for loading:
 
 After de-duplication: 4,217 students, 26,688 problems, 123 skills.
 
+**Attribution:** data from the ASSISTments 2009-2010 skill-builder dataset, which its maintainers describe as free to use. Their request for anyone citing it is to include a link to the [data page](https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data). See also their terms-of-use page linked from that site.
+
 ## Reproduce
 
 ```bash
 conda create -n masar python=3.12
 conda activate masar
-pip install pandas numpy matplotlib scikit-learn jupyterlab torch
+pip install -r requirements.txt
 jupyter lab
 ```
 
