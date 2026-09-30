@@ -1,3 +1,7 @@
+> **Note:** This is the original planning brief I started from. It describes the intended roadmap (v0–v5), not what was completed. See the README for what I actually built and found.
+
+---
+
 # Project Brief: Modeling How a Student Learns Math (Knowledge Tracing)
 
 **The research question:** Given the sequence of problems a student has answered — which topics, right or wrong, in what order — can a model predict whether they'll get the *next* problem right, and can we recover what the model actually learned about the *structure* of math knowledge (which skills depend on which)?
